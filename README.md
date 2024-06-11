@@ -21,4 +21,4 @@ various resources, those are listed below: -
 
 ~ To see the project with styles please open using VSCode
 
-https://www.geeksforgeeks.org/how-to-add-videos-on-readme-md-file-in-a-github-repository/
+https://github.com/cybboysamrat/chatbot/assets/92198282/77c7da2c-bc30-4bff-b037-98338a97dab0

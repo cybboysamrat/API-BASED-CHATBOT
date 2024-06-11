@@ -1,6 +1,11 @@
 # API-BASED-CHATBOT
 This API-based chatbot project leverages artificial intelligence to provide automated, real-time conversational responses, enabling seamless interaction between users and digital services or platforms.
+
+
 https://github.com/cybboysamrat/chatbot/assets/92198282/77c7da2c-bc30-4bff-b037-98338a97dab0
+
+
+
 
 ~ This chatbot is created using the following languages: -
 • HTML

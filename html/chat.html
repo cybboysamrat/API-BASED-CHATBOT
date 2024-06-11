@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Adding chat_style.css file -->
+    <link rel="stylesheet" href="/chatbot_project/styles/chat_style.css">
+
+    <!-- Adding javascript file -->
+    <link rel="stylesheet" href="/chatbot_project/javascript/chatbot.js">
+
+    <!-- Adding Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!-- Adding css icons -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <title>Chatbot Project: Chat</title>
+</head>
+<body>
+    <div class="chat">
+        <!-- Navbar start -->
+        <div class="containerr">
+            <h1>
+               <a href="#menu"><i class='fa fa-bars'></i></a>
+            </h1>   
+           <div class="popover" id="menu">
+                <div class = 'content'>
+                    <a href="#" class="close"></a>
+                    <div class = 'nav'>
+                        <ul class = 'nav_list'>
+                            <div class = 'nav_list_item'>
+                                <li><a href="/chatbot_project/html/home.html">Home</a></li>
+                            </div>
+                            <div class = 'nav_list_item'>
+                                <li><a href="/chatbot_project/html/chat.html">Chat</a></li>
+                            </div>
+                            <div class = 'nav_list_item'>
+                                <li><a href="/chatbot_project/html/signup authentication.html">Signup</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar end -->
+        
+        <!-- Chat section start -->
+        <div class="container">
+            <div class="botimg">
+                <img class="bot" src="/chatbot_project/images/chatbot_img.png" alt="">
+            </div>
+            <div class="inner_container">
+                <div class="box">
+                    <div class="chatarea">
+                        <div class="msgbox">
+                            
+                        </div>
+                        <div class="text">
+                            <input class="typespace" id="inputmsg" type="text" placeholder="Ask me anything.." >
+                        </div>
+                        <div class="textsend">
+                            <button class="sendbtn" id="sendbtn">
+                                <i class="fa fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Adding waves -->
+            <div>
+                <svg class="whitewaves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+                </svg>
+            </div>
+        </div>
+        <!-- Chat section end -->
+    </div>
+    
+    <!-- Adding javascript file -->
+    <script src="/chatbot_project/javascript/chatbot.js"></script>
+
+</body>
+</html>

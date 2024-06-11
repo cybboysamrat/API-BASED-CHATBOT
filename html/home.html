@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Adding style.css file -->
+    <link rel="stylesheet" href="/chatbot_project/styles/home_style.css">
+
+    <!-- Adding javascript file -->
+    <link rel="stylesheet" href="/chatbot_project/javascript/chatbot.js">
+
+    <!-- Adding css icons -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
+    <!-- Adding Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <title>Chatbot Project: Home</title>
+</head>
+<body>
+    <div class="home">
+        <!-- Navbar start -->
+        <div class="containerr">
+            <h2>
+               <a href="#menu" class="bars"><i class='fa fa-bars'></i></a>
+            </h2>   
+           <div class="popover" id="menu">
+                <div class = 'content'>
+                    <a href="#" class="close"></a>
+                    <div class = 'nav'>
+                        <ul class = 'nav_list'>
+                            <div class = 'nav_list_item'>
+                                <li><a href="/chatbot_project/html/home.html">Home</a></li>
+                            </div>
+                            <div class = 'nav_list_item'>
+                                <li><a href="/chatbot_project/html/chat.html">Chat</a></li>
+                            </div>
+                            <div class = 'nav_list_item'>
+                                <li><a href="/chatbot_project/html/signup authentication.html">Signup</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar end -->
+        
+        <!-- Home section start -->
+        <div class="homecontent">
+            <h1>Let's Talk.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa voluptate totam quibusdam consequatur possimus corporis accusamus natus expedita, non velit!</p>
+            <form class="signup" action="/chatbot_project/html/signup authentication.html">
+                <button type="submit" class="sbtn" >Get Started</button>
+            </form>
+        </div>
+        <div class="homeimage">
+            <img src="/chatbot_project/images/chatbot-removebg-preview.png" alt="">
+        </div>
+    
+        
+        <!-- Adding waves -->
+        <div>
+            <svg class="whitewaves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+            </svg>
+        </div>
+
+        <!-- Home section end -->
+    </div>
+</body>
+</html>
